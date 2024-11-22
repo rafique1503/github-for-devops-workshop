@@ -1,0 +1,11 @@
+207  git init
+  208  ls -a
+  209  git status
+  211  git add testing.py
+  213  git rm --cached testing.py
+  214  clear
+  216  git add .
+  218  git commit -m "added testing files"
+  220  rm testing.py
+  221  ls
+  223  git restore testing.py

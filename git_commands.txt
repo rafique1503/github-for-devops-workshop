@@ -1,11 +1,20 @@
-207  git init
-  208  ls -a
-  209  git status
-  211  git add testing.py
-  213  git rm --cached testing.py
-  214  clear
-  216  git add .
-  218  git commit -m "added testing files"
-  220  rm testing.py
-  221  ls
-  223  git restore testing.py
+git init
+ls -a
+git status
+git add testing.pygit rm --cached testing.py
+clear
+git add .
+git commit -m "added testing files"
+rm testing.py
+ls
+git restore testing.py
+cd github-for-devops-workshop/
+ls
+history
+clear
+cd ..
+ls
+cd ..
+ls
+git remote -v
+git push origin master
